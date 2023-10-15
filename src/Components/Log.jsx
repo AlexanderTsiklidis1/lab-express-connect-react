@@ -16,10 +16,10 @@ function Log({ log, index }) {
         </a>
       </td>
       <td>
-        <Link to={`/bookmarks/${index}`}>✏️</Link>
+        <Link to={`/logs/${index}`}>✏️</Link>
       </td>
     </tr>
   );
 }
 
-export default Bookmark;
+export default Log;
